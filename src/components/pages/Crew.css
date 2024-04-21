@@ -1,0 +1,31 @@
+.crew {
+  height: 140vh;
+  background: url("../../../images/cre.jpg") center/cover;
+}
+.container {
+  width: 75vw;
+  margin: auto;
+}
+#crew_text{
+  padding-top: 140px;
+  display: flex;
+  font-family:"Barlow Condensed";
+  gap: 10px;
+  align-items: center;
+  text-transform: uppercase;
+}
+#crew_text span{
+  color: darkgray;
+  font-size: 20px;
+  font-weight: 500;
+}
+#crew_text h2{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+}
+@media only screen and (min-width: 768px) {
+  .crew{
+      height: 110vh;
+  }
+}

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+#dest .active{
+  border-bottom: 2px solid white;
+}
+.all-text .navigation-menu{
+  width: 30vw;
+}
+.all {
+  margin-top: 30px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-bet;
+  align-items: center;
+}
+.all-main{
+  gap: 30px;
+}
+.all-text ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 20px;
+  justify-content: center;
+    height: 5vh;
+    margin: auto;
+    align-items: center;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font: 18px "Barlow Condensed";
+  text-transform: uppercase;
+}
+.all-img img {
+  width: 35vw;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.all-text h1 {
+  color: #fff;
+  font: 400 4.5em Bellefair;
+  padding: 30px 0;
+}
+.all-text > p:not(#end p) {
+  color: #808080;
+  font-family: Barlow;
+  line-height: 1.5;
+  text-align: center;
+}
+hr {
+  color: #fff;
+  height: 1px;
+  width: 60vw;
+  margin: 20px 0 0 0;
+}
+#end {
+  padding-top: 20px;
+  width: 400px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+    height: 5vh;
+    margin:20px auto;
+    align-items: center;
+
+}
+#end {
+  display: flex;
+  gap: 20px;
+}
+#end p {
+  font-size: 20px;
+  color: #fff;
+  font-family: Bellefair;
+}
+#end span {
+  color: #808080;
+  font-size: 14px;
+  font-family: "Barlow Condensed";
+}
+#end-divs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px !important;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: spin 30s linear infinite;
+  transform-origin: center;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 85vw;
+  }
+  .all {
+    justify-content: space-between;
+  }
+  .all-img img {
+    width: 400px;
+  }
+  .all-main {
+    display: flex;
+    flex-direction: row;
+  }
+  .all-text {
+    width: 35vw;
+  }
+  hr {
+    width: 400px;
+  }
+  #end {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #end-divs {
+    margin: 0 10px;
+  }
+  ul {
+    width: 200px;
+  }
+  .all-text {
+    padding: 0px;
+  }
+ 
+}

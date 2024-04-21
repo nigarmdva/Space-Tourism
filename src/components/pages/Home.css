@@ -1,0 +1,60 @@
+.Home{
+    background: url('../../../images/back.jpg')center/cover;
+    height: 130vh;
+    position: relative;
+}
+main{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    width: 60vw;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+#home-text{
+    width: 40vw;
+}
+#home-text h4{
+    font: 200 1.3em "Barlow Condensed";
+    letter-spacing: .3em;
+    text-transform: uppercase;
+}
+#home-text h1{
+    font: 200 6em "Barlow Condensed";
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    padding:25px 0;
+}
+#home-text p{
+    font: 100 1.1em "Barlow Condensed";
+    letter-spacing: .03em;
+}
+#explore{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(222, 222, 222, 0.5);
+}
+@media only screen and (min-width: 768px) {
+    main{
+        flex-direction: row;
+        gap: 150px;
+        width: 70%;
+        margin:70px;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width:454px) {
+    #home-text h1{
+        font-size: 3em;
+    }
+}

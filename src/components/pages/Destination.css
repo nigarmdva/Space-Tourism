@@ -1,0 +1,31 @@
+.dest{
+    height: 150vh;
+    background: url('../../../images/dest.jpg')center/cover;
+}
+.container{
+    width: 75vw;
+    margin: auto;
+}
+#dest_text{
+    padding-top: 140px;
+    display: flex;
+    font-family:"Barlow Condensed";
+    gap: 10px;
+    align-items: center;
+    text-transform: uppercase;
+}
+#dest_text span{
+    color: darkgray;
+    font-size: 20px;
+    font-weight: 500;
+}
+#dest_text h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+@media only screen and (min-width: 768px) {
+    .dest{
+        height: 110vh;
+    }
+}

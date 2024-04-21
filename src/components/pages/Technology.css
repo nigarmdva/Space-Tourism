@@ -1,0 +1,26 @@
+#tech {
+  height: 130vh;
+  background: url("../../../images/tech.jpg") center/cover;
+}
+.container {
+  width: 75vw;
+  margin: auto;
+}
+#tech_text {
+  padding-top: 140px;
+  display: flex;
+  font-family: "Barlow Condensed";
+  gap: 10px;
+  align-items: center;
+  text-transform: uppercase;
+}
+#tech_text span {
+  color: darkgray;
+  font-size: 20px;
+  font-weight: 500;
+}
+#tech_text h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+}
